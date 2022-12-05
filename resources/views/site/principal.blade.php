@@ -26,30 +26,30 @@
     </section>
     <div class="flex justify-center relative bottom-[60px] w-full">
         <div class="flex mx-[100px]">
-            <div class="bg-red-600 w-[400px] h-[250px] p-[20px] text-center text-white">
+            <div class="bg-red-600 xl:w-[400px] xl:h-[250px] xl:p-[20px] lg:w-[200px] lg:h-[300px] lg:p-[20px] text-center text-white">
                 <a class="flex justify-center"> 
-                    <x-iconpark-birthdaycake-o style="width: 48px;" />
+                    <x-iconpark-birthdaycake-o style="width: 48px;"/>
                 </a>
                 <h1 class="text-xl font-serif">Aniversariante</h1>
                 <br>
                 <P class="font-mono">Aniversariantes com dois ou mais acompanhantes, não pagam.</P>
             </div>
-            <div class="bg-red-800 w-[400px] h-[250px] p-[20px] text-center text-white">
+            <div class="bg-red-800 xl:w-[400px] xl:h-[250px] xl:p-[20px] lg:w-[200px] lg:h-[300px] lg:p-[20px] text-center text-white">
                 <a class="flex justify-center"> 
-                    <x-iconpark-babytaste-o style="width: 48px;" />
+                    <x-iconpark-babytaste-o style="width: 48px;"/>
                 </a>
                 <h1 class="text-xl font-serif">Crianças</h1>
                 <br>
                 <p class="font-mono">Crianças com até 5 anos de idade não pagam.</p>
                 <p class="font-mono">Espaço kids liberado até 12 anos de idade.</P>
             </div>
-            <div class="bg-red-600 w-[400px] h-[250px] p-[20px] text-center text-white">
+            <div class="bg-red-600 xl:w-[400px] xl:h-[250px] xl:p-[20px] lg:w-[200px] lg:h-[300px] lg:p-[20px] text-center text-white">
                 <a class="flex justify-center"> 
-                    <x-iconpark-knifefork-o style="width: 48px" />
+                    <x-iconpark-knifefork-o style="width: 48px"/>
                 </a>
                 <h1 class="text-xl font-serif">Buffet Livre</h1>
                 <br>
-                <P></P>
+                <P class="font-mono">Buffet livre para pizzas, massas e comida de pratos tradicionais.</P>
             </div>
 
         </div>
