@@ -28,6 +28,7 @@
         <div class="flex mx-[100px]">
             <div class="bg-red-600 w-[400px] h-[250px] p-[20px] text-center text-white">
                 <a class="flex justify-center"> 
+                    <x-iconpark-birthdaycake-o style="width: 48px;" />
                 </a>
                 <h1 class="text-xl font-serif">Aniversariante</h1>
                 <br>
@@ -35,6 +36,7 @@
             </div>
             <div class="bg-red-800 w-[400px] h-[250px] p-[20px] text-center text-white">
                 <a class="flex justify-center"> 
+                    <x-iconpark-babytaste-o style="width: 48px;" />
                 </a>
                 <h1 class="text-xl font-serif">Crianças</h1>
                 <br>
@@ -43,8 +45,10 @@
             </div>
             <div class="bg-red-600 w-[400px] h-[250px] p-[20px] text-center text-white">
                 <a class="flex justify-center"> 
+                    <x-iconpark-knifefork-o style="width: 48px" />
                 </a>
                 <h1 class="text-xl font-serif">Buffet Livre</h1>
+                <br>
                 <P></P>
             </div>
 
