@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CardapioController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SobreController;
 use App\Http\Controllers\ContatoController;
@@ -9,7 +10,7 @@ use App\Http\Controllers\FornecedorController;
 Route::get('/', [PrincipalController::class, 'principal'])->name('site.index');
 
 Route::prefix('/app')->group(function(){
-    Route::get('/sobre', [SobreController::class, 'sobre'])->name('site.sobre');
+    Route::get('/cardapio', [CardapioController::class, 'cardapio'])->name('site.cardapio');
     Route::get('/contato', [ContatoController::class, 'contato'])->name('site.contato');
     Route::get('/fornecedores', [FornecedorController::class, 'index'])->name('site.fornecedores');
 });
