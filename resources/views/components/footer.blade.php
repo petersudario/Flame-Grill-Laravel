@@ -9,6 +9,8 @@
         <li>
             <a href="#" class="mr-4 hover:underline md:mr-6"><x-iconpark-facebook-o style="width: 48px" /></a>
         </li>
-
+        <li>
+            <a href="#" class="mr-4 hover:underline md:mr-6"><x-fab-whatsapp style="width: 40px" /></a>
+        </li>
     </ul>
 </footer>
