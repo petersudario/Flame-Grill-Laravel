@@ -89,7 +89,7 @@
             </div>
         </div>
     </div>
-    <div class="flex justify-center pb-[120px] bg-amber-50	">
+    <div class="flex justify-center pb-[120px] bg-amber-50">
         <div class="grid xl:grid-cols-4 lg:grid-cols-2 xs:grid-cols-2 md:gap-10 xs:gap-4">
             <div style="background-image: url('{{asset('/img/pizza.jpg')}}')" class="bg-center bg-no-repeat bg-cover md:w-[255px] md:h-[333px] xs:w-[140px] xs:h-[233px] 2xs:w-[180px] 2xs:h-[233px] text-center text-white">
             </div>
@@ -105,5 +105,7 @@
 
 
 
-
+@component('components.footer')
+        
+@endcomponent
 
