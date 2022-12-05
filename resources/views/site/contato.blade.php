@@ -37,9 +37,13 @@
                         </form>
                         <div class="flex justify-center gap-2 text-white">
                             <x-fab-whatsapp style="width: 20px" />
-                            <p style="text-shadow: 1px 1px 7px #151212" class=" text-justify tracking-tight lg:text-xl xs:text-sm">Entre em contato pelo WhatsApp: <a class="underline" href="#">+55 (41) 90000-0000  </a></p>
+                            <p style="text-shadow: 1px 1px 7px #151212" class=" text-justify tracking-tight lg:text-xl xs:text-sm">Entre em contato pelo WhatsApp: <a class="underline" href="#">+55 (00) 90000-0000  </a></p>
                         </div>
-
+                        <br>
+                        <div class="flex justify-center gap-2 text-white">
+                            <x-fas-location-dot style="width: 20px" />
+                            <p style="text-shadow: 1px 1px 7px #151212" class=" text-justify tracking-tight lg:text-xl xs:text-sm">Endereço: <a class="underline" href="#">R. Lorem ipsum, nº0000 - Bairro, Cidade</a></p>
+                        </div>
                     </div>
                 </div>
             </div>

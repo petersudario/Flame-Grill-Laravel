@@ -1,6 +1,6 @@
 
 <footer class="p-4 bg-white shadow md:flex text-center md:justify-between md:p-6 dark:bg-black">
-    <span class="text-base sm:text-center text-white">© 2022 <a>FlameGrill</a>. Todos os direitos reservados.
+    <span class="text-base sm:text-center text-white">© 2022  <a>Flame Grill</a>. Todos os direitos reservados. |  Design por Pedro Sudario.
     </span>
     <ul class="flex justify-center text-white mt-3  sm:mt-0">
         <li>
