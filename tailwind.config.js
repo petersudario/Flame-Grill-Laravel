@@ -8,16 +8,18 @@ module.exports = {
   ],
   theme: {
     screens: {
-    'sm': '640px',
+    'xs': '200px',
+    '2xs': '500px',
+    'sm': '770px',
     // => @media (min-width: 640px) { ... }
 
-    'md': '768px',
+    'md': '800px',
     // => @media (min-width: 768px) { ... }
 
     'lg': '1024px',
     // => @media (min-width: 1024px) { ... }
 
-    'xl': '1280px',
+    'xl': '1311px',
     // => @media (min-width: 1280px) { ... }
 
     '2xl': '1536px',
