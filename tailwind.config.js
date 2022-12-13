@@ -7,6 +7,11 @@ module.exports = {
   
   ],
   theme: {
+    fontFamily: { 
+      'OpenSans' : ['Open Sans', 'sans-serif'],
+      'Kanit' : ['Kanit', 'sans-serif'],
+
+    },
     screens: {
     'xs': '200px',
     '2xs': '500px',

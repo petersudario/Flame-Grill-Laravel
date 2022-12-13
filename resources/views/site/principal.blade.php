@@ -8,19 +8,19 @@
 
 </head>
 <body>
-        <div class="bg-no-repeat p-4 bg-cover md:bg-center xl:bg-center sm:bg-center w-full shadow-2xl" style="background-image: url('{{asset('/img/restaurant-interior.jpg')}}')" >
-            <div class="max-w-4xl min-w-xl grid gap-4 xs:grid-cols-1 xs:w-full md:grid-cols-1 sm:grid-cols-1 lg:grid-cols-0">
-                <div class="flex">
-                    <div class="pt-40 pb-40 pl-[30px] pr-[30px] md:pl-10 md:pr-40 sm:pl-5 sm:pr-40 xs:pl-[30px] xs:pr-[30px]">
-                        <div>
-                            <h1 style="text-shadow: 1px 1px 7px #151212" class="text-3xl lg:text-4xl xs:text-3xl text-justify tracking-tight text-white font-serif">    Churrascaria, pizzaria, buffet livre, rodízio, refrigerantes, vinhos e espumantes.</h1>
-                                <br>
-                            <h2 style="text-shadow: 1px 1px 7px #151212" class="text-white text-justify tracking-tight lg:text-base xs:text-sm ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h2>
-                        </div>
+    <div class="bg-no-repeat p-4 bg-cover md:bg-center xl:bg-center sm:bg-center w-full shadow-2xl" style="background-image: url('{{asset('/img/restaurant-interior.jpg')}}')" >
+        <div class="max-w-4xl min-w-xl grid gap-4 xs:grid-cols-1 xs:w-full md:grid-cols-1 sm:grid-cols-1 lg:grid-cols-0">
+            <div class="flex">
+                <div class="pt-40 pb-40 pl-[30px] pr-[30px] md:pl-10 md:pr-40 sm:pl-5 sm:pr-40 xs:pl-[30px] xs:pr-[30px]">
+                    <div>
+                        <h1 style="text-shadow: 1px 1px 7px #151212" class="text-3xl lg:text-4xl xs:text-3xl text-justify tracking-tight text-white font-serif">    Pizzaria, Foccaceria, buffet livre, rodízio, refrigerantes, vinhos e espumantes.</h1>
+                            <br>
+                        <h2 style="text-shadow: 1px 1px 7px #151212" class="text-white text-justify tracking-tight lg:text-base xs:text-sm ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h2>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
         
     <div class="flex justify-center relative sm:bottom-[60px] w-full">
         <div class="grid sm:grid-cols-3 xs:grid-cols-1 sm:mx-[100px]">
@@ -54,9 +54,9 @@
     <div class="flex justify-center w-full mb-[60px]">
         <div class="p-[20px]">
             <div class="h-full sm:p-[20px] xs:p-[20px] text-center text-xl w-full">
-                <h1 class="text-4xl font-serif">Happy Hour</h1>
+                <h1 class="text-4xl font-serif">Almoço</h1>
                 <br>
-                <p>Buffet Livre, pizzas, massas, porções, espagueteria e refrigerante.<br>
+                <p>Buffet Livre, pratos tradicionais, foccaceria e bebidas.<br>
                     Segunda-Feira a Sexta-Feira: <strong>R$33,90</strong><br>
                     Sábado, Domingo e Feriados: <strong>R$63,90</strong>
                 </p>
@@ -80,7 +80,7 @@
             <div class="h-full sm:p-[20px] xs:p-[20px] text-center text-black text-xl w-full">
                 <h1 class="text-4xl font-serif">Jantar</h1>
                 <br>
-                <p>Buffet Livre, pizzas, massas, porções, espagueteria e refrigerante.
+                <p>Buffet Livre, pizzas, pratos tradicionais, foccaceria e bebidas.
                     <br>
                     Domingo a Quinta-Feira: <strong>$57,90</strong>
                     <br>
