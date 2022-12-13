@@ -2,6 +2,8 @@
 <html lang="ptBR">
 
 <head>
+    <style> @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap'); </style>
+
     @component('components.navbar')
         
     @endcomponent
@@ -13,7 +15,7 @@
             <div class="flex">
                 <div class="pt-40 pb-40 pl-[30px] pr-[30px] md:pl-10 md:pr-40 sm:pl-5 sm:pr-40 xs:pl-[30px] xs:pr-[30px]">
                     <div>
-                        <h1 style="text-shadow: 1px 1px 7px #151212" class="text-3xl lg:text-4xl xs:text-3xl text-justify tracking-tight text-white font-serif">    Pizzaria, Foccaceria, buffet livre, rodízio, refrigerantes, vinhos e espumantes.</h1>
+                        <h1 style="text-shadow: 1px 1px 7px #151212" class="text-3xl lg:text-4xl xs:text-3xl text-justify tracking-tight text-white font-['Kanit'] font-medium">    Pizzaria, Foccaceria, buffet livre, rodízio, refrigerantes, vinhos e espumantes.</h1>
                             <br>
                         <h2 style="text-shadow: 1px 1px 7px #151212" class="text-white text-justify tracking-tight lg:text-base xs:text-sm ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h2>
                     </div>
@@ -28,7 +30,7 @@
                 <a class="flex justify-center"> 
                     <x-iconpark-birthdaycake-o style="width: 48px;"/>
                 </a>
-                <h1 class="text-xl font-serif">Aniversariante</h1>
+                <h1 class="text-xl font-['Kanit'] font-medium">Aniversariante</h1>
                 <br>
                 <P class="font-mono">Aniversariantes com dois ou mais acompanhantes, não pagam.</P>
             </div>
@@ -36,7 +38,7 @@
                 <a class="flex justify-center"> 
                     <x-iconpark-babytaste-o style="width: 48px;"/>
                 </a>
-                <h1 class="text-xl font-serif">Crianças</h1>
+                <h1 class="text-xl font-['Kanit'] font-medium">Crianças</h1>
                 <br>
                 <p class="font-mono">Crianças com até 5 anos de idade não pagam.</p>
                 <p class="font-mono">Espaço kids liberado até 12 anos de idade.</P>
@@ -45,7 +47,7 @@
                 <a class="flex justify-center"> 
                     <x-iconpark-knifefork-o style="width: 48px"/>
                 </a>
-                <h1 class="text-xl font-serif">Buffet Livre</h1>
+                <h1 class="text-xl font-['Kanit'] font-medium">Buffet Livre</h1>
                 <br>
                 <P class="font-mono">Buffet livre para pizzas, massas e comida de pratos tradicionais.</P>
             </div>
@@ -54,7 +56,7 @@
     <div class="flex justify-center w-full mb-[60px]">
         <div class="p-[20px]">
             <div class="h-full sm:p-[20px] xs:p-[20px] text-center text-xl w-full">
-                <h1 class="text-4xl font-serif">Almoço</h1>
+                <h1 class="text-4xl font-['Kanit'] font-medium">Almoço</h1>
                 <br>
                 <p>Buffet Livre, pratos tradicionais, foccaceria e bebidas.<br>
                     Segunda-Feira a Sexta-Feira: <strong>R$33,90</strong><br>
@@ -78,7 +80,7 @@
     <div class="flex justify-center w-full mt-[30px] pb-[30px] bg-amber-50	">
         <div class="p-[20px]">
             <div class="h-full sm:p-[20px] xs:p-[20px] text-center text-black text-xl w-full">
-                <h1 class="text-4xl font-serif">Jantar</h1>
+                <h1 class="text-4xl font-['Kanit'] font-medium">Jantar</h1>
                 <br>
                 <p>Buffet Livre, pizzas, pratos tradicionais, foccaceria e bebidas.
                     <br>
