@@ -21,6 +21,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ## 2. Run the following commands:
    <p>Composer install</p>
    <p>npm install (or yarn if you prefer)</p>
+   
 ## 3. Open the command prompt on your text editor
 ## 4. Run 'php artisan serve'
 ## 5. Run 'npm run dev'
