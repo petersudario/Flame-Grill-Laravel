@@ -24,4 +24,4 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
    
 ## 3. Open the command prompt on your text editor
 ## 4. Run 'php artisan serve'
-## 5. Run 'npm run dev'
+## 5. Run 'npm run dev' and access localhost:8000
