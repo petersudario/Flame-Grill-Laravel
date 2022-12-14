@@ -116,14 +116,14 @@
                 
                 <div class="flex col-3 text-lg justify-center">
                     <div class="sm:w-[200px] xs:w-[50px] flex justify-center">
-                        <ul>
+                        <ul class="w-[197px]">
                             <li class="m-[10px]"><h1 class="font-['Kanit'] font-bold "><h1>Frango</h1><p class="mt-10[px] text-gray-600">Lorem ipsum</p></li>
                             
                         </ul>
                     </div>
                     <div class="w-[1px] ml-[95px] mr-[95px] bg-black"></div>
                     <div class="sm:w-[200px] xs:w-[50px] flex justify-center">
-                        <ul>
+                        <ul class="w-[197px]">
                             <li class="m-[10px]"><h1 class="font-['Kanit'] font-bold "><h1>Bolonhesa</h1><p class="mt-10[px] text-gray-600">Lorem ipsum</p></li>
                             <li class="m-[10px]"><h1 class="font-['Kanit'] font-bold "><h1>Presunto</h1><p class="mt-10[px] text-gray-600">Lorem ipsum</p></li>
                             

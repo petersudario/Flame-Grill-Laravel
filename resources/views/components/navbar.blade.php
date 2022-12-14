@@ -9,7 +9,7 @@
 </head>
 
 
-<div class="w-full bg-transparent text-black shadow-2xl	">
+<div class="w-full bg-white text-black shadow-2xl	">
   <div x-data="{ open: false }" class="mx-auto flex max-w-screen-xl flex-col px-4 md:flex-row md:items-center md:justify-between md:px-6 lg:px-8">
     <div class="flex flex-row items-center justify-between p-4">
       <a class="flex items-center focus:shadow-outline rounded-lg text-lg font-semibold uppercase tracking-widest text-white focus:outline-none"><?xml version="1.0" encoding="iso-8859-1"?><img class="h-6 mr-3 sm:h-9" <img src="{{ asset('/img/flame-shape-svgrepo-com.svg') }} "/><span class="self-center text-xl font-semibold whitespace-nowrap dark:text-black">FLAME GRILL</span></a>
