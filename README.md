@@ -1,5 +1,5 @@
 # Flame Grill Project made in:
-> This is a fictitious enterprise. No restaurant or another enterprise has paid for this website.
+> This is a fictitious enterprise. No restaurant or another enterprise named Flame Grill has paid or asked for this website .
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
