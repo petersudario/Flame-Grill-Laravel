@@ -1,5 +1,3 @@
-
-
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
@@ -9,7 +7,7 @@
 </head>
 
 
-<div class="w-full bg-white text-black shadow-2xl	">
+<nav class="w-full bg-white text-black shadow-2xl	">
   <div x-data="{ open: false }" class="mx-auto flex max-w-screen-xl flex-col px-4 md:flex-row md:items-center md:justify-between md:px-6 lg:px-8">
     <div class="flex flex-row items-center justify-between p-4">
       <a class="flex items-center focus:shadow-outline rounded-lg text-lg font-semibold uppercase tracking-widest text-white focus:outline-none"><?xml version="1.0" encoding="iso-8859-1"?><img class="h-6 mr-3 sm:h-9" <img src="{{ asset('/img/flame-shape-svgrepo-com.svg') }} "/><span class="self-center text-xl font-semibold whitespace-nowrap dark:text-black">FLAME GRILL</span></a>
@@ -20,13 +18,13 @@
         </svg>
       </button>
     </div>
-    <nav :class="{'flex': open, 'hidden': !open}" class="hidden flex-grow flex-col pb-4 md:flex md:flex-row md:justify-end md:pb-0">
+    <div :class="{'flex': open, 'hidden': !open}" class="hidden flex-grow flex-col pb-4 md:flex md:flex-row md:justify-end md:pb-0">
       <a class="focus:shadow-outline mt-2 rounded-lg bg-transparent px-4 py-2 text-sm font-semibold hover:bg-black hover:text-yellow-400	 focus:bg-gray-200 focus:text-gray-900 focus:outline-none md:mt-0 md:ml-4" href="{{ route('site.index') }}">HOME</a>
       <a class="focus:shadow-outline mt-2 rounded-lg bg-transparent px-4 py-2 text-sm font-semibold hover:bg-black hover:text-yellow-400	 focus:bg-gray-200 focus:text-gray-900 focus:outline-none md:mt-0 md:ml-4" href="{{ route('site.cardapio') }}">CARDÁPIO</a>
       <a class="focus:shadow-outline mt-2 rounded-lg bg-transparent px-4 py-2 text-sm font-semibold hover:bg-black hover:text-yellow-400	 focus:bg-gray-200 focus:text-gray-900 focus:outline-none md:mt-0 md:ml-4" href="{{ route('site.contato') }}">CONTATO</a>
       
       </div>
-    </nav>
+    </div>
   </div>
-</div>
+</nav>
 

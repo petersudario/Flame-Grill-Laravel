@@ -12,7 +12,8 @@
                         <h1 style="text-shadow: 1px 1px 7px #151212" class="text-3xl lg:text-4xl xs:text-3xl text-justify tracking-tight text-white font-['Kanit'] font-medium">Formulário</h1>
                         <br>
                         <p style="text-shadow: 1px 1px 7px #151212" class="text-white text-justify tracking-tight lg:text-xl xs:text-sm font-['Kanit'] font-medium">Favor entrar em contato para qualquer dúvida, reclamação ou sugestão, preenchendo o formulário abaixo com suas informações de contato e o assunto abordado.</p>
-                        <form class="text-white px-4 my-10 max-w-3xl mx-auto space-y-6">
+                        <form class="text-white px-4 my-10 max-w-3xl mx-auto space-y-6" action={{ route('site.contato') }} method="POST">
+                            @csrf
                             <div class="grid 2xs:grid-cols-2 gap-4">
                                 <div>
                                     <label class="text-xl font-['Kanit'] font-medium" for="nome" style="text-shadow: 1px 1px 7px #151212 ">Nome completo *</label>

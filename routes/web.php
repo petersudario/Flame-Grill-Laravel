@@ -12,6 +12,7 @@ Route::get('/', [PrincipalController::class, 'principal'])->name('site.index');
 Route::prefix('/app')->group(function(){
     Route::get('/cardapio', [CardapioController::class, 'cardapio'])->name('site.cardapio');
     Route::get('/contato', [ContatoController::class, 'contato'])->name('site.contato');
+    Route::post('/contato', [ContatoController::class, 'contato'])->name('site.contato');
     Route::get('/fornecedores', [FornecedorController::class, 'index'])->name('site.fornecedores');
 });
 
