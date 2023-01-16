@@ -2,8 +2,7 @@
 <html lang="ptBR">
     <style> @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap'); </style>
 
-    @component('components.navbar')
-    @endcomponent
+    
     <div class="bg-no-repeat p-4 bg-cover md:bg-center xl:bg-center sm:bg-center h-full] flex justify-center" style="background-image: url('{{asset('/img/pizzaWall.jpg')}}')" >
         <div class="max-w-4xl min-w-xl grid gap-4 xs:grid-cols-1 xs:w-full md:grid-cols-1 sm:grid-cols-1 lg:grid-cols-1">
             <div class="flex">
