@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="ptBR">
+    @component('components.navbar')
+    
+    @endcomponent
     <style> @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap'); </style>
 
-    
     <div class="bg-no-repeat p-4 bg-cover md:bg-center xl:bg-center sm:bg-center h-full] flex justify-center" style="background-image: url('{{asset('/img/pizzaWall.jpg')}}')" >
         <div class="max-w-4xl min-w-xl grid gap-4 xs:grid-cols-1 xs:w-full md:grid-cols-1 sm:grid-cols-1 lg:grid-cols-1">
             <div class="flex">
@@ -12,7 +14,6 @@
                         <br>
                         <p style="text-shadow: 1px 1px 7px #151212" class="text-white text-justify tracking-tight lg:text-xl xs:text-sm font-['Kanit'] font-medium">Favor entrar em contato para qualquer dúvida, reclamação ou sugestão, preenchendo o formulário abaixo com suas informações de contato e o assunto abordado.</p>
                         <form class="text-white px-4 my-10 max-w-3xl mx-auto space-y-6" action={{ route('site.contato') }} method="POST">
-                            @csrf
                             <div class="grid 2xs:grid-cols-2 gap-4">
                                 <div>
                                     <label class="text-xl font-['Kanit'] font-medium" for="nome" style="text-shadow: 1px 1px 7px #151212 ">Nome completo *</label>
