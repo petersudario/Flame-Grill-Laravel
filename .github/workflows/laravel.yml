@@ -20,7 +20,7 @@ jobs:
       run: php -r "file_exists('.env') || copy('.env.example', '.env');"
     - name: Install Dependencies
       run: 
-          composer update --ignore-platform-req=ext-fileinfo 
+          composer update --ignore-platform-req=ext-fileinfo &&
           composer install --ignore-platform-req=ext-fileinfo
     - name: Execute tests (Unit and Feature tests) via PHPUnit
       env:
